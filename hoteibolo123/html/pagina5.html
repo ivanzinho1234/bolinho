@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Criar Reserva - Hotel Bela Vista</title>
+<link rel="stylesheet" href="../css/criarreserva.css">
+</head>
+<body>
+    <div class="form-container">
+        <h1>Criar Reserva</h1>
+        <script src="../scripts/classreserva3.js"></script>
+
+        <form id="">
+            <select id="reservaFormhospedeSelect" required>
+                <option value="">Selecione o Hóspede</option>
+                
+            </select>
+            <select id="quartoSelect" required>
+                <option value="">Selecione o Quarto</option>
+            </select>
+            <div>
+                <input type="date" id="checkin" required />
+            </div>
+            <div>
+                 <input type="date" id="checkout" required />
+            </div>
+            <button type="submit">Reservar</button>
+        </form>
+    </div>
+</body>
+</html>

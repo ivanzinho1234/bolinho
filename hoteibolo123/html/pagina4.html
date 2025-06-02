@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Cadastro de Quarto - Hotel Bela Vista</title>
+<link rel="stylesheet" href="../css/cadastrodequarto.css">
+</head>
+<body>
+    <div class="form-container">
+        <h1>Cadastrar Quarto</h1>
+        <script src="../scripts/classquarto2.js"></script>
+
+        <form id="novoquartoForm">
+        <div>      
+            <input type="number" id="numero" placeholder="Número do Quarto" required />
+        </div>
+        <div>
+            <input type="text" id="tipo" placeholder="Tipo (standard, luxo, suíte)" required />
+        </div>
+        <div>
+            <input type="number" id="diaria" placeholder="Diária" required />
+        <div>
+            <input type="checkbox" id="disponibilidade" checked /> Disponível
+        </div>
+            <button onclick="location.href='pagina5.html'">Cadastrar</button>
+
+        </form>
+    </div>
+</body>
+</html>

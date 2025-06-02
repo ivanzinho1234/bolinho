@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Consultar Reservas - Hotel Bela Vista</title>
+<link rel="stylesheet" href="../css/consultareservas.css">
+</head>
+<body>
+    <div class="form-container">
+        <h1>Consultar Reservas</h1>
+        <script src="../scripts/classconsultareservas.js"></script>
+        <input type="text" id="filtroNome" placeholder="Filtrar por Nome do Hóspede" />
+        <input type="date" id="filtroData" />
+        <button id="filtrarBtn">Filtrar</button>
+        <table id="reservasTable">
+            <thead>
+                <tr>
+                    <th>Hóspede</th>
+                    <th>Quarto</th>
+                    <th>CheckReservas-in</th>
+                    <th>Check-out</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!--  vou colocar as reservas pelo js -->
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
